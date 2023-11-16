@@ -40,7 +40,7 @@ class Kamera():
 
         a_esiklenmis = cv2.adaptiveThreshold(gray_img,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
                                              cv2.THRESH_BINARY,11,2)
-        
+    
         ret , thresh = cv2.threshold(gray_img,127,255,cv2.THRESH_BINARY)
 
         cv2.imshow("adaptive",a_esiklenmis)
