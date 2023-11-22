@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/home/fatih/ac_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda-11.7/lib64'
-export PKG_CONFIG_PATH='/home/fatih/ac_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'
 export PWD='/home/fatih/catkin_ws/build'
-export PYTHONPATH='/home/fatih/ac_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'

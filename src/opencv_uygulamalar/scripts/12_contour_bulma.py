@@ -73,7 +73,7 @@ class Kamera():
                                                 cv2.CHAIN_APPROX_SIMPLE)
 
         for i in sinirlar:
-            cv2.drawContours(img2,i,-1,(0,255,0),3)
+            cv2.drawContours(img2,sinirlar,-1,(0,255,0),3)
 
 
         cv2.imshow("Robot Kamerasi",img2)
